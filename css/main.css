@@ -99,3 +99,78 @@ footer{
 	padding: 10px;
 	color: whitesmoke;
 }
+
+#work{
+	background-color: white;
+	text-align: center;
+	color: #35353a;
+	padding: 50px;
+}
+#work.flex-container{
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.work-pc{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.boxes{
+flex-direction: row;
+}
+
+.img-responsive{
+	max-width: 70%;
+	width: 70%;
+}
+.boxes img{
+	width: 300px;
+	padding: 40px;
+}
+
+/*MODAL*/
+
+.hide{
+  display: none;
+}
+
+.all-boxes img{
+  cursor: pointer;
+  width: 80%;
+}
+
+#all-boxes-modal{
+  background-color: rgba(46,148,115,0.85);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+#all-boxes-modal .body-modal{
+  width: 55%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 100px;
+}
+
+#all-boxes-modal .body-modal .nombre-p{
+  color: whitesmoke;
+  font-size: 1.2em;
+}
+
+#all-boxes-modal .close{
+  position: absolute;
+  top: 25px;
+  right: 25px;
+  cursor: pointer;
+}
+
+#all-boxes-modal .close .fa{
+  width: 60px;
+  color: whitesmoke;
+  font-size: 3em;
+}
